@@ -1,12 +1,12 @@
 /* Simple, calm styles for the project page */
 :root {
-  --bg: #f7f7f5;
+  --bg: #f3f8f4;
   --card: #ffffff;
-  --text: #1f2933;
-  --muted: #52606d;
-  --accent: #0f766e;
-  --accent-2: #f2c94c;
-  --shadow: 0 10px 30px rgba(15, 118, 110, 0.1);
+  --text: #0f1f18;
+  --muted: #4a5a52;
+  --accent: #1f8f55;
+  --accent-2: #b7e4c7;
+  --shadow: 0 10px 30px rgba(31, 143, 85, 0.12);
   --radius: 14px;
   --font-main: "Space Grotesk", "Segoe UI", sans-serif;
 }
@@ -18,8 +18,8 @@
 body {
   margin: 0;
   font-family: var(--font-main);
-  background: radial-gradient(circle at 20% 20%, rgba(242, 201, 76, 0.15), transparent 30%),
-              radial-gradient(circle at 80% 0%, rgba(15, 118, 110, 0.12), transparent 25%),
+  background: radial-gradient(circle at 20% 20%, rgba(183, 228, 199, 0.4), transparent 30%),
+              radial-gradient(circle at 80% 0%, rgba(31, 143, 85, 0.25), transparent 25%),
               var(--bg);
   color: var(--text);
   min-height: 100vh;
@@ -86,7 +86,7 @@ header {
 }
 
 .button.secondary {
-  background: #0b5250;
+  background: #136f3f;
 }
 
 main {
@@ -129,7 +129,7 @@ main {
 
 .badge {
   background: var(--accent-2);
-  color: #5c4b00;
+  color: #0f3d23;
   padding: 6px 10px;
   border-radius: 999px;
   font-weight: 700;
