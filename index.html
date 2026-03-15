@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Software Engineering Gruppe</title>
+  <title>TEAPOT – Software Engineering Gruppe</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -12,9 +12,14 @@
 <body>
   <header>
     <div class="hero">
-      <small>Software Engineering – Uni</small>
-      <h1>Online Aufgabenplanung – Team Beispiel 1</h1>
-      <p>Browserbasiertes Aufgaben-Planungssystem: zentrale Erfassung, Verwaltung und automatisierte Planung von Aufgaben für Organisationen.</p>
+      <div class="hero-brand">
+        <img class="hero-logo" src="Logo.png" alt="TEAPOT Logo" />
+        <div>
+          <small>Software Engineering – Uni</small>
+          <h1>TEAPOT – Online Aufgabenplanung</h1>
+        </div>
+      </div>
+      <p>TEAPOT ist ein browserbasiertes Aufgaben-Planungssystem: zentrale Erfassung, Verwaltung und automatisierte Planung von Aufgaben für Organisationen.</p>
       <div class="quick-actions">
         <a class="button" href="#rollen">Rollen & Team</a>
         <a class="button secondary" href="#pdfs">Arbeitsblätter (PDFs)</a>
@@ -25,14 +30,15 @@
   <main>
     <section id="gruppe" class="section">
       <h2>Informationen über die Projektgruppe</h2>
-      <div class="grid">
-        <div class="card">
-          <strong>Name</strong>
-          <span>Beispiel 1</span>
+      <div class="about">
+        <div class="about-text">
+          <span class="eyebrow">Projektname</span>
+          <h3>TEAPOT</h3>
+          <p class="muted">Team für browserbasierte Aufgabenplanung und Organisation.</p>
         </div>
-        <div class="card">
-          <strong>Logo</strong>
-          <span>Noch offen (Platzhalter)</span>
+        <div class="about-logo-card">
+          <img class="about-logo" src="Logo.png" alt="TEAPOT Logo" />
+          <span class="logo-caption">Logo</span>
         </div>
       </div>
     </section>
@@ -45,34 +51,32 @@
             <tr>
               <th>Name</th>
               <th>Rolle</th>
-              <th>E-Mail</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Johannes Widmaier</td>
+              <td>Polina Hrybkova</td>
               <td>Projektleitung</td>
-              <td>i24009</td>
             </tr>
             <tr>
-              <td>Polina Hrybkova</td>
+              <td>Johannes Widmaier</td>
               <td>Technische Assistenz</td>
-              <td>i24017</td>
             </tr>
             <tr>
               <td>Elia Retke</td>
               <td>Modellierung / Implementierung</td>
-              <td>i24023</td>
             </tr>
             <tr>
               <td>David Graf</td>
               <td>Dokumentation / Recherche / Qualitätssicherung</td>
-              <td>i24022</td>
             </tr>
             <tr>
               <td>Tim Baumer</td>
               <td>Tests</td>
-              <td>i24024</td>
+            </tr>
+            <tr>
+              <td>Dominik Schmitt</td>
+              <td>Recherche</td>
             </tr>
           </tbody>
         </table>
@@ -145,11 +149,11 @@
           <div>
             <div class="meta">
               <span class="badge">KW 01</span>
-              <span>Abgabe: Aufgabe 1</span>
+              <span>Abgabe: Aufgabenblatt 1</span>
             </div>
-            <a href="pdfs/Aufgabe1.pdf">PDF öffnen</a>
+            <a href="pdfs/Aufgabenblatt1.pdf">PDF öffnen</a>
           </div>
-          <span class="meta">Hochgeladen: 12.03.2026</span>
+          <span class="meta">Hochgeladen: 15.03.2026</span>
         </li>
       </ul>
       <p class="footer-note">Neues PDF? Einfach in den Ordner <strong>pdfs/</strong> legen und unten in die Liste eintragen.</p>

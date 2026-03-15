@@ -49,6 +49,23 @@ header {
   gap: 18px;
 }
 
+.hero-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.hero-logo {
+  width: 72px;
+  height: 72px;
+  border-radius: 14px;
+  object-fit: contain;
+  background: #f3f5f7;
+  border: 1px solid #e5e7eb;
+  padding: 8px;
+  box-shadow: var(--shadow);
+}
+
 .hero small {
   color: var(--muted);
   letter-spacing: 0.08em;
@@ -95,6 +112,56 @@ main {
   padding: 0 24px 64px;
   display: grid;
   gap: 18px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 18px;
+  align-items: center;
+}
+
+.about-text h3 {
+  margin: 4px 0 10px;
+  font-size: 1.8rem;
+}
+
+.about-text .muted {
+  color: var(--muted);
+  margin: 0;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.about-logo-card {
+  justify-self: end;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  width: min(240px, 100%);
+  box-shadow: var(--shadow);
+}
+
+.about-logo {
+  width: 160px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.logo-caption {
+  font-size: 0.9rem;
+  color: var(--muted);
 }
 
 .section {
@@ -157,6 +224,16 @@ main {
   padding: 16px;
   display: grid;
   gap: 6px;
+}
+
+.inline-logo {
+  width: 120px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  padding: 6px;
+  background: #fff;
 }
 
 .table-wrapper {
