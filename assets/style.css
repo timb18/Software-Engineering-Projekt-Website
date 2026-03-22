@@ -56,8 +56,9 @@ header {
 }
 
 .hero-logo {
-  width: 72px;
-  height: 72px;
+  width: 74px;
+  padding: -20px;
+  aspect-ratio: 1/1;
   border-radius: 14px;
   object-fit: contain;
   background: #f3f5f7;
@@ -269,6 +270,12 @@ main {
   text-align: center;
   padding: 18px 0 0;
   font-size: 0.95rem;
+}
+
+.documents {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 @media (max-width: 640px) {
